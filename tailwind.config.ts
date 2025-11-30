@@ -57,6 +57,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        hero: {
+          overlay: "hsl(var(--hero-overlay))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
