@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, Send } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -47,8 +47,7 @@ const Contact = () => {
                 <h3 className="font-semibold text-secondary-foreground mb-1">
                   Telefone
                 </h3>
-                <p className="text-secondary-foreground/70">(11) 99999-9999</p>
-                <p className="text-secondary-foreground/70">(11) 3333-3333</p>
+                <p className="text-secondary-foreground/70">(48) 99602-1670</p>
               </div>
             </div>
 
@@ -61,27 +60,7 @@ const Contact = () => {
                   E-mail
                 </h3>
                 <p className="text-secondary-foreground/70">
-                  contato@concretehub.com.br
-                </p>
-                <p className="text-secondary-foreground/70">
-                  suporte@concretehub.com.br
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                <MapPin className="w-5 h-5 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-semibold text-secondary-foreground mb-1">
-                  Endereço
-                </h3>
-                <p className="text-secondary-foreground/70">
-                  Av. Paulista, 1000 - Bela Vista
-                </p>
-                <p className="text-secondary-foreground/70">
-                  São Paulo - SP, 01310-100
+                  contato@concretehub.com
                 </p>
               </div>
             </div>
