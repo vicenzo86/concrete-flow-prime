@@ -1,47 +1,33 @@
-import { Settings, Route, Bot, Truck, BarChart3, Shield } from "lucide-react";
+import { Route, Headphones, CheckCircle, LayoutDashboard } from "lucide-react";
 
 const solutions = [
   {
-    icon: Settings,
-    title: "Automação de Usinas",
-    description:
-      "Software completo para automação de processos em usinas de concreto. Controle de dosagem, gestão de estoque e monitoramento em tempo real.",
-    features: ["Controle de dosagem automático", "Gestão de matéria-prima", "Relatórios em tempo real"],
-  },
-  {
     icon: Route,
-    title: "App de Roteirização",
+    title: "Roteirização Inteligente",
     description:
       "Aplicativo inteligente que otimiza rotas de entrega, reduzindo tempo e combustível. Acompanhamento GPS e comunicação direta com motoristas.",
     features: ["Otimização de rotas", "Rastreamento GPS", "Comunicação integrada"],
   },
   {
-    icon: Bot,
-    title: "Agentes de IA",
+    icon: Headphones,
+    title: "Atendimento Autônomo",
     description:
-      "Inteligência artificial que automatiza tarefas de logística, previsão de demanda e atendimento ao cliente. Decisões mais rápidas e precisas.",
-    features: ["Previsão de demanda", "Atendimento automatizado", "Análise preditiva"],
+      "Nossa plataforma atende seus clientes de forma autônoma, deixando os pedidos pré-agendados automaticamente. O setor logístico precisa apenas confirmar, economizando tempo e recursos.",
+    features: ["Pré-agendamento automático", "Atendimento 24 horas", "Confirmação simplificada"],
   },
   {
-    icon: Truck,
-    title: "Gestão de Frota",
+    icon: CheckCircle,
+    title: "Confirmação Automática",
     description:
-      "Controle completo da sua frota de betoneiras. Manutenção preventiva, disponibilidade e histórico de entregas em uma única plataforma.",
-    features: ["Manutenção preventiva", "Histórico de entregas", "Indicadores de desempenho"],
+      "Sistema que evita erros e garante que nenhum caminhão fique ocioso. Máxima eficiência na alocação de equipamentos e entregas sempre no prazo.",
+    features: ["Zero erros de agendamento", "Caminhões sempre ativos", "Alocação máxima de frota"],
   },
   {
-    icon: BarChart3,
-    title: "Business Intelligence",
+    icon: LayoutDashboard,
+    title: "Controle de Confirmações",
     description:
-      "Dashboards executivos com métricas de produção, vendas e logística. Tome decisões baseadas em dados concretos.",
-    features: ["Dashboards interativos", "Exportação de relatórios", "Alertas personalizados"],
-  },
-  {
-    icon: Shield,
-    title: "Qualidade e Compliance",
-    description:
-      "Controle de qualidade do concreto com rastreabilidade total. Laudos automáticos e conformidade com normas técnicas.",
-    features: ["Rastreabilidade total", "Laudos automáticos", "Conformidade ABNT"],
+      "Não precisa mais ficar verificando WhatsApp para acompanhar confirmações. Todas as informações centralizadas em um dashboard intuitivo e completo.",
+    features: ["Dashboard centralizado", "Histórico de confirmações", "Alertas em tempo real"],
   },
 ];
 
@@ -62,7 +48,7 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {solutions.map((solution) => (
             <div
               key={solution.title}
