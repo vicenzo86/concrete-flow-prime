@@ -44,17 +44,17 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#solucoes" className="text-background/70 hover:text-primary transition-colors">
+                  Previsibilidade de Entregas
+                </a>
+              </li>
+              <li>
+                <a href="#solucoes" className="text-background/70 hover:text-primary transition-colors">
                   Atendimento Autônomo
                 </a>
               </li>
               <li>
                 <a href="#solucoes" className="text-background/70 hover:text-primary transition-colors">
                   Confirmação Automática
-                </a>
-              </li>
-              <li>
-                <a href="#solucoes" className="text-background/70 hover:text-primary transition-colors">
-                  Controle de Confirmações
                 </a>
               </li>
             </ul>
