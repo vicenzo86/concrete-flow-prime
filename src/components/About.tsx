@@ -1,7 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 
 const highlights = [
-  "Mais de 10 anos de experiência no setor de concreto",
+  "Mais de 15 anos de experiência no setor de concreto",
   "Equipe especializada em tecnologia e logística",
   "Suporte técnico 24/7 em todo o Brasil",
   "Integração com sistemas ERP existentes",
@@ -44,29 +44,25 @@ const About = () => {
 
           <div className="relative">
             <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl p-8 lg:p-12">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="bg-card rounded-2xl p-6 text-center border border-border">
-                  <div className="text-4xl font-bold text-primary mb-1">+150</div>
-                  <div className="text-muted-foreground text-sm">
-                    Usinas Atendidas
-                  </div>
-                </div>
-                <div className="bg-card rounded-2xl p-6 text-center border border-border">
-                  <div className="text-4xl font-bold text-primary mb-1">+10</div>
-                  <div className="text-muted-foreground text-sm">
+              <div className="flex flex-col items-center justify-center gap-6">
+                <div className="bg-card rounded-2xl p-8 text-center border border-border w-full max-w-xs">
+                  <div className="text-5xl font-bold text-primary mb-2">15+</div>
+                  <div className="text-muted-foreground text-lg">
                     Anos de Experiência
                   </div>
                 </div>
-                <div className="bg-card rounded-2xl p-6 text-center border border-border">
-                  <div className="text-4xl font-bold text-primary mb-1">50+</div>
-                  <div className="text-muted-foreground text-sm">
-                    Profissionais
+                <div className="grid grid-cols-2 gap-4 w-full">
+                  <div className="bg-card rounded-2xl p-6 text-center border border-border">
+                    <div className="text-3xl font-bold text-primary mb-1">20%</div>
+                    <div className="text-muted-foreground text-sm">
+                      Redução de Custos
+                    </div>
                   </div>
-                </div>
-                <div className="bg-card rounded-2xl p-6 text-center border border-border">
-                  <div className="text-4xl font-bold text-primary mb-1">98%</div>
-                  <div className="text-muted-foreground text-sm">
-                    Taxa de Retenção
+                  <div className="bg-card rounded-2xl p-6 text-center border border-border">
+                    <div className="text-3xl font-bold text-primary mb-1">24/7</div>
+                    <div className="text-muted-foreground text-sm">
+                      Suporte Técnico
+                    </div>
                   </div>
                 </div>
               </div>

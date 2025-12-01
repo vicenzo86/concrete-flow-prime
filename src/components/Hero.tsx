@@ -54,8 +54,8 @@ const Hero = () => {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {[
-              { value: "+150", label: "Usinas Atendidas" },
-              { value: "30%", label: "Redução de Custos" },
+              { value: "20%", label: "Redução de Custos" },
+              { value: "15+", label: "Anos de Experiência" },
               { value: "98%", label: "Satisfação" },
               { value: "24/7", label: "Suporte Técnico" },
             ].map((stat) => (

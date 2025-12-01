@@ -3,13 +3,13 @@ import { TrendingUp, Clock, DollarSign, Users } from "lucide-react";
 const benefits = [
   {
     icon: TrendingUp,
-    value: "30%",
+    value: "20%",
     label: "Aumento de Produtividade",
     description: "Otimize processos e produza mais com os mesmos recursos.",
   },
   {
     icon: Clock,
-    value: "45%",
+    value: "15%",
     label: "Redução de Tempo",
     description: "Entregas mais rápidas com roteirização inteligente.",
   },
@@ -21,7 +21,7 @@ const benefits = [
   },
   {
     icon: Users,
-    value: "40%",
+    value: "60%",
     label: "Menos Trabalho Manual",
     description: "Automação de tarefas repetitivas e burocráticas.",
   },
