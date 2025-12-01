@@ -9,8 +9,8 @@ const Footer = () => {
           <div>
             <img src={logo} alt="ConcreteHub" className="h-14 w-auto mb-4 brightness-0 invert" />
             <p className="text-background/70 mb-6">
-              Tecnologia inteligente para usinas de concreto. Automação,
-              roteirização e IA para transformar sua operação.
+              Tecnologia inteligente para usinas de concreto. Roteirização
+              e atendimento autônomo para transformar sua operação.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#solucoes" className="text-background/70 hover:text-primary transition-colors">
-                  Automação de Usinas
+                  Roteirização Inteligente
                 </a>
               </li>
               <li>
                 <a href="#solucoes" className="text-background/70 hover:text-primary transition-colors">
-                  App de Roteirização
+                  Atendimento Autônomo
                 </a>
               </li>
               <li>
                 <a href="#solucoes" className="text-background/70 hover:text-primary transition-colors">
-                  Agentes de IA
+                  Confirmação Automática
                 </a>
               </li>
               <li>
                 <a href="#solucoes" className="text-background/70 hover:text-primary transition-colors">
-                  Gestão de Frota
+                  Controle de Confirmações
                 </a>
               </li>
             </ul>
