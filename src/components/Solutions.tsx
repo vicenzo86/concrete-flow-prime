@@ -1,4 +1,4 @@
-import { Route, Headphones, CheckCircle, LayoutDashboard } from "lucide-react";
+import { Route, Headphones, CheckCircle, LayoutDashboard, Clock } from "lucide-react";
 
 const solutions = [
   {
@@ -7,6 +7,13 @@ const solutions = [
     description:
       "Aplicativo inteligente que otimiza rotas de entrega, reduzindo tempo e combustível. Acompanhamento GPS e comunicação direta com motoristas.",
     features: ["Otimização de rotas", "Rastreamento GPS", "Comunicação integrada"],
+  },
+  {
+    icon: Clock,
+    title: "Previsibilidade de Entregas",
+    description:
+      "Monitoramento dinâmico dos tempos de entrega em tempo real. O sistema identifica desvios, realiza ajustes automáticos e comunica ativamente os motoristas quando necessário.",
+    features: ["Monitoramento em tempo real", "Ajustes dinâmicos de rota", "Comunicação ativa com motoristas"],
   },
   {
     icon: Headphones,
@@ -48,7 +55,7 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {solutions.map((solution) => (
             <div
               key={solution.title}
